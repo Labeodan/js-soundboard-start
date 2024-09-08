@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 900px;
+    margin: 40px  auto;
+    margin-bottom: 70px;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    background-color: whitesmoke;
+    height: 100vh;
+
+}
+
+.logo-div {
+    width: 400px;
+    margin: auto;
+}
+
+.logo-div img {
+    width: 100%;
+}
+
+#sounds{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.sound-button{
+    width: auto;
+    height: 200px;
+    color: red;
+    font-size: 2rem;
+    cursor: crosshair;
+    border: 2px solid gray;
+    background-size: cover;
+}
+
+
+.sound-button:hover {
+    color: white;
+}
